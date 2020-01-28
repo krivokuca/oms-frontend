@@ -1,0 +1,16 @@
+Packet: {
+    0: {
+        01: ['System', 'Browser', 'UserAgentString', 'Ip', 'User Cookie'],
+        02: ['ApiToken','UserID']
+    }
+    1: {
+        11: ['Page', 'URL', 'PageTitle'],
+        12: ['ScreenHeight', 'ScreenWidth']
+    }
+    2: {
+        21: ['HtmlID', 'ClickType', 'Vid']
+        22: ['TimeInterval', 'Vid', 'Sid', 'PartList']
+        23: ['Vid', 'Uid', 'Sid', 'VideoKeywords', 'Type', 'Time']
+        24: ['TimeIntervalInMS', 'Timestamp',[[x,y],[x2,y2],[x3,y3]...[xn,yn]]]
+    }
+}
